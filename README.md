@@ -61,21 +61,6 @@ Open the heatmap and pattern table from the GUI for deeper insights.
 **
 The app uses race_data.csv for storing results.
 
-Each entry records:
-
-Game number
-
-Round number
-
-1st, 2nd, 3rd, and 4th placements.
-
-
-Example:
-Game	Round	1st	2nd	3rd	4th
-1	1	1	3	4	2
-1	2	1	2	3	4
-🧠 How Predictions Work
-
 Pattern Detection
 Looks at the most recent race order and finds all past occurrences of the same order.
 Uses the next result after those sequences to predict the next likely winner.
